@@ -4,8 +4,8 @@
 function! ale#swift_format#Enable() abort
     call ale#linter#Define('swift', {
     \   'name': 'swift-format',
-    \   'executable': 'swift-format',
-    \   'command': 'swift-format lint %s',
+    \   'executable': g:vim_swift_format_executable,
+    \   'command': g:vim_swift_format_lint_command,
     \   'output_stream': 'stderr',
     \   'callback': 'ale#handlers#swift_format#Handle',
     \})
