@@ -41,4 +41,3 @@ function! ale#handlers#swift_format#Handle(buffer, lines) abort
 
     return l:output
 endfunction
-
