@@ -4,6 +4,11 @@ Use [apple/swift-format](https://github.com/apple/swift-format) in Vim
 
 - for [ale](https://github.com/w0rp/ale) plugin
 
+## Required
+
+- [apple/swift-format](https://github.com/apple/swift-format)
+-  [ale](https://github.com/w0rp/ale)
+
 ## Installation
 
 ### with Vim package management
@@ -22,11 +27,10 @@ Plug 'tokorom/vim-swift-format'
 ### with Volt
 
 ```sh
-volt get w0rp/ale
 volt get tokorom/vim-swift-format
 ```
 
-## Required Configuration
+## Required Configurations
 
 ```vim
 let g:ale_linters = {
@@ -36,7 +40,7 @@ let g:ale_linters = {
 let g:vim_swift_format_use_ale = 1
 ```
 
-## Optional Configuration
+## Optional Configurations
 
 ```vim
 " default
